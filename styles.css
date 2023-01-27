@@ -16,9 +16,12 @@ h1 {
   font-weight: bold;
   font-size: 1.5rem;
 }
-.s-assanaContaine {
+.s-assanaContainer {
   display: grid;
   grid-template-columns: auto;
+  width: 50%;
+  border: solid black 1px;
+  padding: 5px;
 }
 
 .s-myPriorites {
@@ -32,8 +35,7 @@ h1 {
 }
 .s-myProjects {
 }
-.s-priorityContainer{
-  
+.s-priorityContainer {
 }
 .s-lockIcon {
   height: 12px;
