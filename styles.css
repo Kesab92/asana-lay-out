@@ -18,20 +18,40 @@ h1 {
 }
 .s-assanaContainer {
   display: grid;
-  grid-template-columns: auto;
-  width: 50%;
+  grid-template-columns: 500px;
+  width: max-content;
   border: solid black 1px;
   padding: 5px;
+  border-radius: 4px;
 }
 
 .s-myPriorites {
   display: flex;
+  flex-direction: column;
 }
 .s-headerRow {
   display: flex;
   flex-direction: row;
+  border-bottom: 1px solid;
 }
 .s-myTasks {
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.s-myTasks > div {
+  padding: 2px;
+  margin: 2px;
+  display: flex;
+  border-bottom: 0.5px solid black;
+}
+.s-myTasks > div:hover {
+  background-color: grey;
+}
+.s-myTasks > div > p {
+  margin-top: 22px;
+  margin-left: 8px;
 }
 .s-myProjects {
 }
