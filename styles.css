@@ -4,9 +4,13 @@
 
 body {
   margin: 0;
-  font-family: system-ui, sans-serif;
+
   color: black;
   background-color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: normal;
 }
 main {
   padding: 1rem;
@@ -45,9 +49,9 @@ h1 {
   margin: 2px;
   display: flex;
   border-bottom: 0.5px solid black;
+  justify-content: space-between;
 }
 .s-myTasks > div:hover {
-  background-color: grey;
 }
 .s-myTasks > div > p {
   margin-top: 22px;
