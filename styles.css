@@ -9,6 +9,7 @@ body {
   background-color: white;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     'Helvetica Neue', Helvetica, Arial, sans-serif;
+  fill: #6d6e6f;
   font-size: 14px;
   line-height: normal;
 }
@@ -24,7 +25,7 @@ h1 {
   display: grid;
   grid-template-columns: 500px;
   width: max-content;
-  border: solid black 1px;
+  box-shadow: 0 0 0 1px #edeae9, 0 1px 4px 0 rgba(109, 110, 111, 0.08);
   padding: 5px;
   border-radius: 4px;
 }
@@ -36,7 +37,8 @@ h1 {
 .s-headerRow {
   display: flex;
   flex-direction: row;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid#edeae9;
+  padding-left: 24px;
 }
 .s-myTasks {
   margin-left: 20px;
@@ -44,23 +46,20 @@ h1 {
   display: flex;
   flex-direction: column;
 }
+.s-myTasks > p {
+  color: #1e1f21;
+}
 .s-myTasks > div {
   padding: 2px;
   margin: 2px;
   display: flex;
-  border-bottom: 0.5px solid black;
-  justify-content: space-between;
-}
-.s-myTasks > div:hover {
+  border-bottom: 1px solid#edeae9;
 }
 .s-myTasks > div > p {
   margin-top: 22px;
   margin-left: 8px;
 }
-.s-myProjects {
-}
-.s-priorityContainer {
-}
+
 .s-lockIcon {
   height: 12px;
   width: 12px;
