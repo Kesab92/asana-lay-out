@@ -51,20 +51,14 @@ h1 {
   color: #1e1f21;
 }
 .s-myTasks > div {
-  padding: 2px;
-  margin: 2px;
   display: flex;
+  align-items: center;
   border-bottom: 1px solid#edeae9;
-}
-.s-myTasks > div > p {
-  margin-top: 22px;
-  margin-left: 8px;
 }
 
 .s-lockIcon {
   height: 12px;
   width: 12px;
-  margin-top: 24px;
-  margin-left: 8px;
+  margin-right: 8px;
   fill: #6d6e6f;
 }
