@@ -43,7 +43,6 @@ h1 {
   padding: 8px;
 }
 .s-myTasks {
-  padding: 16px 24px 0;
   display: flex;
   flex-direction: column;
 }
@@ -54,11 +53,16 @@ h1 {
   display: flex;
   align-items: center;
   border-bottom: 1px solid#edeae9;
+  padding: 12px 24px 0;
+}
+.s-myTasks > div:hover {
+  background-color: #d2d6d8;
 }
 
 .s-lockIcon {
   height: 12px;
   width: 12px;
   margin-right: 8px;
+
   fill: #6d6e6f;
 }
